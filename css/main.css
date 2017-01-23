@@ -56,9 +56,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  font-family: 'PT Sans', sans-serif;
+}
    .google-map {
      width: 100%;
      height: 66.7vh;
+   }
+
+   .index_slider{
+     width: 100%;
+     text-align: center;
+   }
+   .welcome_message{
+     background: #437ABE;
+   }
+   .welcome_message p {
+     color: white;
+     padding: 30px;
    }
 
 
