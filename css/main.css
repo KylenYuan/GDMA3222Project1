@@ -55,22 +55,128 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*
+    * Main Nav Menu Styling
+    */
+
+   .main-nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     text-align: center;
+   }
+   .white_logo{
+     width: 80%;
+     padding: 10px;
+   }
+   .main-nav li {
+     margin-bottom: 2px;
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+     border-bottom-color: grey;
+   }
+
+   .main-nav a {
+     background-color:#437ABE;
+     display: block;
+     padding-top: 15px;
+     padding-right: 10px;
+     padding-bottom: 15px;
+     padding-left: 10px;
+     color: white;
+     text-decoration: none;
+   }
+
+   .main-nav a:active {
+     background-color: grey;
+   }
+   .main-nav img{
+     padding: 16px;
+   }
+
+  .welcome_message{
+    background: #437ABE;
+    border: 0;
+    }
+
+    .google-map {
+      width: 100%;
+      border: none;
+      text-align: center;
+      height: 50vh;
+    }
+
+.exhibitions h1 {
+  text-align: center;
+}
+
+   @media screen and (min-width: 600px) {
+     .main-nav {
+       background-color: #437ABE;
+       border-bottom: 1px solid grey;
+     }
+
+     .main-nav li {
+       display: inline-block;
+       border-bottom: none;
+     }
+
+     .main-nav a {
+       background-color: transparent;
+     }
+
+
+     .main-nav a:hover {
+       background-color: #25499B;
+     }
+
+     .main-nav a:hover:active {
+       background-color: grey;
+     }
+
+     .welcome_message p {
+       color: white;
+       padding: 30px;
+       font-size: 24px;
+     }
+
+   }
+
+
+
+   @media screen and (min-width: 1024px) {
+     .main-nav {
+       font-size: 125%;
+     }
+     .main-nav img{
+       color: white;
+       width: 100px;
+     }
+
+     .welcome_message p {
+       color: white;
+       padding: 30px;
+       font-size: 40px;
+     }
+
+     .google-map {
+       width: 80%;
+       height: 500px;
+       padding-bottom: 30px;
+     }
+
+
+   }
 
 body{
   font-family: 'PT Sans', sans-serif;
 }
-   .google-map {
-     width: 100%;
-     height: 66.7vh;
-   }
 
    .index_slider{
      width: 100%;
      text-align: center;
    }
-   .welcome_message{
-     background: #437ABE;
-   }
+
    .welcome_message p {
      color: white;
      padding: 30px;
