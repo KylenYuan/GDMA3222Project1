@@ -150,6 +150,8 @@ font-size: 5vw;
 .more_buttom {
   color: #ffffff;
   background-color: #437ABE;
+  padding:10px;
+  text-decoration: none;
 }
 .more_buttom:hover {
   color: #ffffff;
@@ -174,6 +176,8 @@ font-size: 5vw;
 .footer_content h1{
     font-size: 20px;
 }
+
+
 
    @media screen and (min-width: 600px) {
      .logo{
