@@ -98,7 +98,9 @@ Author's custom styles
 }
 .welcome_message{
   background: #437ABE;
-  border: 0;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
 }
 
 .google-map {
@@ -108,14 +110,39 @@ Author's custom styles
   text-align: center;
 }
 
-.exhibitions h1 {
+.EXPLORE_EXHIBITONS h1{
+text-align: center;
+font-size: 5vw;
+}
+.separator_small_center{
   text-align: center;
 }
+.index_slider{
+  width: 100%;
+}
+
 .exhibition img{
   width: 100%;
 }
 .exhibition_text{
   padding: 5vw;
+}
+
+.footer_div{
+    padding: 5px;
+}
+
+.footer_content li{
+    margin-left: 3vw;
+    list-style-type: none;
+}
+.footer_content h1{
+    padding: 0;
+    margin-left:3vw;
+    color: #437ABE;
+}
+.footer_content h1{
+    font-size: 20px;
 }
 
    @media screen and (min-width: 600px) {
@@ -147,8 +174,10 @@ Author's custom styles
        padding: 30px;
        font-size: 24px;
      }
+     .EXPLORE_EXHIBITONS h1{
+       font-size: 18px;
+     }
 
-   }
 
 
 
@@ -193,10 +222,7 @@ body{
    }
 
 
-
-
-
-
+}
 
 
 
