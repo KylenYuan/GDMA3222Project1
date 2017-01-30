@@ -59,16 +59,26 @@ Author's custom styles
 * Main Nav Menu Styling
 */
 
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
 .main-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
-.white_logo{
-  width: 80%;
+.logo{
+  display:block;
+  width: 30%;
   padding: 10px;
+  margin: 0 auto;
 }
+.logo img{
+  width:100%;
+}
+
 .main-nav li {
   margin-bottom: 2px;
   border-bottom-width: 1px;
@@ -115,26 +125,46 @@ text-align: center;
 font-size: 5vw;
 }
 .separator_small_center{
-  text-align: center;
+  margin: 0 auto;
 }
 .index_slider{
   width: 100%;
 }
+
+
 
 .exhibition img{
   width: 100%;
 }
 .exhibition_text{
   padding: 5vw;
+  line-height:2;
 }
+
+
+
+/* ------ Flat Botton ------ */
+.exhibition p{
+
+}
+.more_buttom {
+  color: #ffffff;
+  background-color: #437ABE;
+}
+.more_buttom:hover {
+  color: #ffffff;
+  background-color: #437ABE;
+}
+.more_buttom:active {
+  background}
+
 
 .footer_div{
     padding: 5px;
 }
 
-.footer_content li{
+.footer_content p{
     margin-left: 3vw;
-    list-style-type: none;
 }
 .footer_content h1{
     padding: 0;
@@ -146,6 +176,9 @@ font-size: 5vw;
 }
 
    @media screen and (min-width: 600px) {
+     .logo{
+       width: 200px;
+     }
      .main-nav {
        background-color: #437ABE;
        border-bottom: 1px solid grey;
@@ -175,7 +208,7 @@ font-size: 5vw;
        font-size: 24px;
      }
      .EXPLORE_EXHIBITONS h1{
-       font-size: 18px;
+       font-size: 25px;
      }
 
 
@@ -195,21 +228,14 @@ font-size: 5vw;
 
      .welcome_message p {
        color: white;
-       padding: 30px;
-       font-size: 40px;
+       padding: 15px;
+       font-size: 25px;
      }
 
      .google-map {
        height: 500px;
-       padding-bottom: 30px;
-     }
+       padding-bottom: 30px;}
 
-
-   }
-
-body{
-  font-family: 'PT Sans', sans-serif;
-}
 
    .index_slider{
      width: 100%;
@@ -220,7 +246,16 @@ body{
      color: white;
      padding: 30px;
    }
+   .EXPLORE_EXHIBITONS h1{
 
+   }
+
+   .exhibition {
+     width: 45%;
+     float: left;
+     margin-left: 2.5%;
+     margin-right: 2.5%;
+   }
 
 }
 
